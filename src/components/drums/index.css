@@ -1,0 +1,21 @@
+
+.drum-flex {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.drum-pads {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.name-drum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  border: 1px solid #d61313;
+}
